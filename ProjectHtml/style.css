@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+   margin: 0;
+   border: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header > img{
+    height: 50px;
+    margin: 1rem;
+    width: 6rem;
+}
+
+header{
+    display: grid;
+    align-items: center;
+    gap: 5vw;
+    grid-template-columns: 10% 50% 1fr;
+}
+
+header ul{
+    display: flex;
+    gap: 3vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    color: #333;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li:first-child{
+   color: #5719BC; 
+}
+
+#login{
+    display: flex;
+    gap: 2vw;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#login button{
+    padding: 10px 1.2vw;
+}
+
+button:first-child{
+    background-color: #5719BC;
+    display: flex;
+    padding: 15px;
+    border-radius: 50px;
+    gap: 2rem;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button img{
+    width: 25px;
+}
+
+button p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#loginone{
+    background: none;
+}
+
+#logintwo{
+    color: lightcoral;
+    background: none;
+    border: 2px solid lightcoral;
+}
+
+main{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+main img{
+    width: 100%;
+    height: 70vh;
+}
+
+#description{
+    display: flex;
+    gap: 5vw;
+    margin-top: 10vh;
+    text-align: justify;
+}
+
+#statistics{
+    display: grid;
+    grid-template-rows: 30% 1fr;
+}
+
+#span{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    font-size: 13px;
+    align-items: center;
+}
+
+#numbers{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3vh;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#numbers h4{
+    font-size: 25px;
+}
+
+#numbers p{
+    color: lightslategrey;
+}
+
+#numbers article:nth-of-type(2)::before{
+    background: rgb(56, 55, 55);
+    opacity: 1;
+}
+
+
+#numbers article:nth-of-type(2) h4{
+    color: lightcoral;
+    font-size: 30px;
+}
+
+article{
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+article h4,
+article p{
+    padding-left: 20px;
+}
+
+article::before{
+    content: '';
+    background: rgba(171, 172, 173, 0.9);
+    height: 100%;
+    width: 5px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+footer{
+    display: flex;
+    height: 8vh;
+    text-align: center;
+    background: #333;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 5vh;
+}
