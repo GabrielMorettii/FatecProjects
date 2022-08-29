@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+#positionright li{
+    list-style-type: circle;  
+}
+
+main{
+    width: 40vw;
+    height: 70vh;
+
+    margin: 0 auto;
+    margin-top: 3rem;
+
+    border-radius: 10px;
+    background-color: #FFFF;
+    
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
