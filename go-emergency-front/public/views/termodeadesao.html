@@ -20,7 +20,7 @@
             </ul>
         </header>
         <main>
-            <div>
+            <div id="upperform">
                 <div id="textadesao">
                     <h3>Termos de Serviço </h3>
                     <p>Antes de iniciar a avaliação, leia os Termos de Serviço. Lembre-se que:</p>
@@ -33,9 +33,14 @@
                 <img src="../assets/svgexport-6.svg" alt="svg6">
             </div>
             <form action="#">
-                <input type="checkbox"> Eu li e aceito os <a href="#">Termos de Serviço</a> e a <a href="#">Política de Privacidade</a>.</input> 
-                <input type="checkbox"> Concordo com o processamento de minhas informações de saúde para fins de realização da entrevista</input> 
-                <div id="line"></div>
+                <div id="checkboxes">
+                    <p>
+                        <input type="checkbox" required> Eu li e aceito os <a href="#">Termos de Serviço</a> e a <a href="#">Política de Privacidade</a>. <br>
+                    </p>
+                    <p>
+                        <input type="checkbox" required> Concordo com o processamento de minhas informações de saúde para fins de realização da entrevista 
+                    </p>
+                </div>
                 <div id="submitform">
                     <a href="../../public/views/home.jsp"><img src="../../public/assets/Symptomate-5.svg" id="voltaricon"/>Voltar</a>
                     <input type="submit" id="enviarform" value="Próximo">

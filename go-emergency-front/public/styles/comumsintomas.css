@@ -13,6 +13,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover, input[type="submit"]{
+    cursor: pointer;
+    opacity: 80%;
+}
+
 header{
     width: 100%;
     height: 100px;
@@ -75,6 +84,17 @@ header ul{
     color: #5b98d2;
 }
 
+#submitform input[type="submit"]{
+    width: 120px;
+    height: 50px;
+  
+    background-color: #0B5F43;
+    color: white;
+  
+    font-weight: 600;
+  
+    border-radius: 5px;
+}
 
 footer{
     width: 100%;
