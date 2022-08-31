@@ -74,15 +74,3 @@ main form p{
     font-weight: 300;
 }
 
-#submitform{
-    display: flex;
-    justify-content: space-between;
-
-    border-top: 1px solid rgb(218, 215, 215);
-    padding: 20px 40px;
-}
-
-#submitform a{
-    display: flex;
-    align-items: center;
-}

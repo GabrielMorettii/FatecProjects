@@ -15,7 +15,6 @@ main{
 
 form{
   background-color: white;
-  padding: 50px;
   border-radius: 7px;
 
   display: flex;
@@ -35,6 +34,10 @@ form{
   position: relative;
   
   color: rgb(65, 65, 65);
+}
+
+#pesquisararea, #girarbotao{
+  padding: 50px;
 }
 
 #textpesquisar{
@@ -214,9 +217,4 @@ select:hover{
   opacity: 0.8;
 }
 
-#submitform{
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
 

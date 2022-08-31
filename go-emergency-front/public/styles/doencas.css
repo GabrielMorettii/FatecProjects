@@ -1,0 +1,92 @@
+main{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+}
+
+#content{
+    width: 40vw;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#recomendacao{
+    display: flex;
+    min-height: 35vh;
+    border-radius: 10px;  
+}
+
+#recomendacao, #causas{
+    background-color: #ffff;
+}
+
+#textrecomendacao, #imgmedicoicon, #causas{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#textrecomendacao{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    font-weight: 300;
+    background-color: #ffff;
+}
+
+#textrecomendacao h5{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#imgmedicoiconbackground{
+    background-color: #2F91EA;
+
+    border-radius: 0 10px 10px 0;
+}
+
+#tipodeconsulta{
+    display: flex;
+    gap: 20px;
+}
+
+#tipodeconsulta p strong{
+    display: block;
+    font-weight: 450;
+}
+
+#tipodeconsulta p:first-child{
+    padding-right: 20px;
+    border-right: 1px solid rgb(206, 204, 204);
+}
+
+#causas h6{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#causas #line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(232, 226, 226);
+
+    margin: 15px 0;
+}
+
+.doencacard{
+    padding: 15px;
+    border-radius: 10px;
+
+    border-bottom: 1px solid rgb(232, 226, 226);;
+}
+
+.doencacard:hover{
+    background-color: #F3F5F7;
+    cursor: pointer;
+}
