@@ -14,6 +14,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 50px;
+
+    margin-bottom: 150px;
 }
 
 #recomendacao{
@@ -83,10 +85,52 @@ main{
     padding: 15px;
     border-radius: 10px;
 
-    border-bottom: 1px solid rgb(232, 226, 226);;
+    border-bottom: 1px solid rgb(232, 226, 226);
 }
 
 .doencacard:hover{
     background-color: #F3F5F7;
     cursor: pointer;
+}
+
+.tipodeevidencia, .verdetalheasicon{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    color: #1471C9;
+}
+
+.tipodeevidencia span, #footercausas{
+    color: grey;
+    font-weight: 300;
+    font-size: 14px;
+
+    margin-left: 5px;
+}
+
+.verdetalheasicon{
+    justify-content: flex-end;
+
+    font-size: 13px;
+}
+
+.verdetalheasicon img{
+    width: 20px;
+}
+
+#modaldoenca{
+    background: #333D48;
+
+    position: absolute;
+    top: 0;
+
+    opacity: 0.5;
+
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    overflow: hidden;
 }
