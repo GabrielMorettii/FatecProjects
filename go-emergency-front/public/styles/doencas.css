@@ -88,7 +88,7 @@ main{
     border-bottom: 1px solid rgb(232, 226, 226);
 }
 
-.doencacard:hover{
+.doencacard:hover, #closebuttondoenca{
     background-color: #F3F5F7;
     cursor: pointer;
 }
@@ -120,15 +120,52 @@ main{
 }
 
 #modaldoenca{
-    background: #333D48;
+    background: rgba(33, 39, 48, 0.4);
 
     position: absolute;
     top: 0;
 
-    opacity: 0.5;
-
     width: 100%;
     height: 100%;
+}
+
+#doencaativabackground{
+    position: absolute;
+    width: 35vw;
+    height: 100vh;
+
+    background: #FFFFFF;
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+
+    top: 0;
+    right: 0;
+}
+
+#doencahead{
+    width: 100%;
+    height: 25vh;
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #F3F5F7;
+}
+
+#closebuttondoenca{
+    align-self: flex-end;
+}
+
+#nomedoenca p{
+    font-size: 25px;
+    font-weight: 380;
 }
 
 :root{
