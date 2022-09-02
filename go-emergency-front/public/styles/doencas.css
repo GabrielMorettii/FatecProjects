@@ -1,3 +1,7 @@
+.overflowhidden{
+    overflow-y: hidden;
+}
+
 main{
     display: flex;
 
@@ -122,7 +126,7 @@ main{
 #modaldoenca{
     background: rgba(33, 39, 48, 0.4);
 
-    position: absolute;
+    position: fixed;
     top: 0;
 
     width: 100%;
@@ -134,8 +138,9 @@ main{
     width: 35vw;
     height: 100vh;
 
-    background: #FFFFFF;
     border-left: 1px solid rgba(0, 0, 0, 0.4);
+    background: #FFFFFF;
+    overflow-y: scroll;
 
     top: 0;
     right: 0;
@@ -164,6 +169,26 @@ main{
     font-weight: 380;
 }
 
-:root{
-    overflow: hidden;
+#doencadetalhes{
+    padding: 40px 60px 60px 40px;
+    background: #FFFFFF;
+}
+
+#doencadetalhes h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#doencadetalhes ul{
+    margin: 10px 30px;
+}
+
+#doencadetalhes ul li, #doencadetalhes pre{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#doencadetalhes pre{
+    margin: 10px 0;
+    white-space: pre-line;
 }
